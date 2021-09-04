@@ -4,9 +4,7 @@ const NavBar = ({ score }) => {
   return (
     <nav className="navbar navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          'Ōlelo Quiz
-        </a>
+        <h1 className="navbar-brand">Hō'ike Mo'omeheu Hawai'i</h1>
         <div className="card">
           <p className="m-2">
             <span className="badge bg-primary rounded-pill m-2">

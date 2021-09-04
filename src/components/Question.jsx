@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./css/Question.css";
 
 class Question extends Component {
   state = {
@@ -8,19 +9,26 @@ class Question extends Component {
   handleSubmit = (onScore) => {
     const { num, prompt, answer } = this.props.q;
 
-    onScore(document.getElementById(num + "-input").value === answer);
+    onScore(
+      document
+        .getElementById(num + "-input")
+        .value.trim()
+        .toLowerCase() === answer
+    );
 
     this.setState({ submitted: true });
   };
 
   render() {
-    const { num, prompt, answer } = this.props.q;
+    const { num, olelo, prompt, answer } = this.props.q;
 
     return (
       <div className="card m-3">
         {/* img goes here w/ class card-img-top */}
         <div className="card-body">
-          <h5 className="card-title">Question #{num}</h5>
+          <h5 className="card-title">
+            Question #{num} - Nīnau {olelo}
+          </h5>
           <p className="card-text">{prompt}</p>
           <div className="input-group mb-3">
             <span className="input-group-text">Answer</span>
