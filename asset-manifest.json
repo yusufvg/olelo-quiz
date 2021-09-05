@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/yusufvg.github.io/olelo-quiz/static/css/main.057c2816.chunk.css",
+    "main.js": "/yusufvg.github.io/olelo-quiz/static/js/main.d7088989.chunk.js",
+    "main.js.map": "/yusufvg.github.io/olelo-quiz/static/js/main.d7088989.chunk.js.map",
+    "runtime-main.js": "/yusufvg.github.io/olelo-quiz/static/js/runtime-main.95110fe1.js",
+    "runtime-main.js.map": "/yusufvg.github.io/olelo-quiz/static/js/runtime-main.95110fe1.js.map",
+    "static/css/2.983f79de.chunk.css": "/yusufvg.github.io/olelo-quiz/static/css/2.983f79de.chunk.css",
+    "static/js/2.59cc96b4.chunk.js": "/yusufvg.github.io/olelo-quiz/static/js/2.59cc96b4.chunk.js",
+    "static/js/2.59cc96b4.chunk.js.map": "/yusufvg.github.io/olelo-quiz/static/js/2.59cc96b4.chunk.js.map",
+    "static/js/3.89788508.chunk.js": "/yusufvg.github.io/olelo-quiz/static/js/3.89788508.chunk.js",
+    "static/js/3.89788508.chunk.js.map": "/yusufvg.github.io/olelo-quiz/static/js/3.89788508.chunk.js.map",
+    "index.html": "/yusufvg.github.io/olelo-quiz/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/yusufvg.github.io/olelo-quiz/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.057c2816.chunk.css.map": "/yusufvg.github.io/olelo-quiz/static/css/main.057c2816.chunk.css.map",
+    "static/js/2.59cc96b4.chunk.js.LICENSE.txt": "/yusufvg.github.io/olelo-quiz/static/js/2.59cc96b4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/yusufvg.github.io/olelo-quiz/static/media/bg-white.32868565.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95110fe1.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.59cc96b4.chunk.js",
+    "static/css/main.057c2816.chunk.css",
+    "static/js/main.d7088989.chunk.js"
+  ]
+}
