@@ -14,7 +14,7 @@ class Question extends Component {
       document
         .getElementById(num + "-input")
         .value.trim()
-        .toLowerCase() === answer;
+        .toLowerCase() === answer.trim().toLowerCase();
 
     onScore(res);
 
