@@ -33,6 +33,11 @@ class Game extends Component {
             <Question key={q.num} q={q} onScore={this.handleScore} />
           ))}
         </div>
+        <div className="text-center">
+          <a href="#game-root">
+            <button className="btn btn-primary">Back To Top</button>
+          </a>
+        </div>
         <Footer />
       </div>
     );

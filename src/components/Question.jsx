@@ -1,25 +1,48 @@
 import React, { Component } from "react";
+import { Check, X } from "react-bootstrap-icons";
 
 class Question extends Component {
   state = {
     submitted: false,
+    res: "none",
   };
 
   handleSubmit = (onScore) => {
     const { num, prompt, answer } = this.props.q;
 
-    onScore(
+    const res =
       document
         .getElementById(num + "-input")
         .value.trim()
-        .toLowerCase() === answer
-    );
+        .toLowerCase() === answer;
 
-    this.setState({ submitted: true });
+    onScore(res);
+
+    this.setState({ submitted: true, res: res.toString() });
   };
 
   render() {
     const { num, olelo, prompt, answer } = this.props.q;
+
+    let badge = "";
+    switch (this.state.res) {
+      case "true":
+        badge = (
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+            <Check />
+            <span class="visually-hidden">correct</span>
+          </span>
+        );
+        break;
+      case "false":
+        badge = (
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            <X />
+            <span class="visually-hidden">incorrect</span>
+          </span>
+        );
+        break;
+    }
 
     return (
       <div className="card m-3">
@@ -47,7 +70,11 @@ class Question extends Component {
               Submit
             </button>
           </div>
+          {this.state.res === "false" && (
+            <p className="card-text">Correct Answer: {answer}</p>
+          )}
         </div>
+        {badge}
       </div>
     );
   }
