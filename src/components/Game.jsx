@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Instagram } from "react-bootstrap-icons";
 import NavBar from "./NavBar";
 import Question from "./Question";
 
@@ -25,12 +26,35 @@ class Game extends Component {
 
   render() {
     return (
-      <div>
+      <div id="game-root">
         <NavBar score={this.state.score} />
         <div className="container">
           {this.state.questions.map((q) => (
             <Question key={q.num} q={q} onScore={this.handleScore} />
           ))}
+        </div>
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a
+                href="/"
+                class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+              ></a>
+              <span class="text-muted">© 2021 Yusuf Van Gieson</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3">
+                <a
+                  class="text-muted"
+                  href="https://instagram.com/amirvg_art?utm_medium=copy_link"
+                >
+                  Background By: @amirvg_art
+                  <Instagram className="mx-2" />
+                </a>
+              </li>
+            </ul>
+          </footer>
         </div>
       </div>
     );
