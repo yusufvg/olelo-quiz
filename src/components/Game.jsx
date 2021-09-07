@@ -30,7 +30,7 @@ class Game extends Component {
         num: 4,
         olelo: "'Ehā",
         prompt:
-          "Described in the Kumulipo (the creation chant), the kalo plant first grew from Papahānaumoku's (Earth Mother) stillborn son's grave, and was cultived by and nourished her second son, Haloa, the first man. What is the more common name for  kalo?",
+          "Described in the Kumulipo (the creation chant), the kalo plant first grew from Ho'ohōkūkalani (daughter of Papahānaumoku/Earth Mother) and Wākea's (the Sky Father) stillborn son's grave, and was cultived by and nourished her second son, Haloa, the first man. What is the more common name for  kalo?",
         answer: "Taro",
       },
       {
