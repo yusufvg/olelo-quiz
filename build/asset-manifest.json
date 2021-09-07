@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/olelo-quiz/static/css/main.eff60c8a.chunk.css",
-    "main.js": "/olelo-quiz/static/js/main.d7088989.chunk.js",
-    "main.js.map": "/olelo-quiz/static/js/main.d7088989.chunk.js.map",
-    "runtime-main.js": "/olelo-quiz/static/js/runtime-main.6bb4e7dd.js",
-    "runtime-main.js.map": "/olelo-quiz/static/js/runtime-main.6bb4e7dd.js.map",
+    "main.css": "/olelo-quiz/static/css/main.f56cc8e4.chunk.css",
+    "main.js": "/olelo-quiz/static/js/main.56934080.chunk.js",
+    "main.js.map": "/olelo-quiz/static/js/main.56934080.chunk.js.map",
+    "runtime-main.js": "/olelo-quiz/static/js/runtime-main.53dc5935.js",
+    "runtime-main.js.map": "/olelo-quiz/static/js/runtime-main.53dc5935.js.map",
     "static/css/2.983f79de.chunk.css": "/olelo-quiz/static/css/2.983f79de.chunk.css",
-    "static/js/2.59cc96b4.chunk.js": "/olelo-quiz/static/js/2.59cc96b4.chunk.js",
-    "static/js/2.59cc96b4.chunk.js.map": "/olelo-quiz/static/js/2.59cc96b4.chunk.js.map",
-    "static/js/3.89788508.chunk.js": "/olelo-quiz/static/js/3.89788508.chunk.js",
-    "static/js/3.89788508.chunk.js.map": "/olelo-quiz/static/js/3.89788508.chunk.js.map",
+    "static/js/2.3cd641f1.chunk.js": "/olelo-quiz/static/js/2.3cd641f1.chunk.js",
+    "static/js/2.3cd641f1.chunk.js.map": "/olelo-quiz/static/js/2.3cd641f1.chunk.js.map",
+    "static/js/3.2103e9ef.chunk.js": "/olelo-quiz/static/js/3.2103e9ef.chunk.js",
+    "static/js/3.2103e9ef.chunk.js.map": "/olelo-quiz/static/js/3.2103e9ef.chunk.js.map",
     "index.html": "/olelo-quiz/index.html",
     "static/css/2.983f79de.chunk.css.map": "/olelo-quiz/static/css/2.983f79de.chunk.css.map",
-    "static/css/main.eff60c8a.chunk.css.map": "/olelo-quiz/static/css/main.eff60c8a.chunk.css.map",
-    "static/js/2.59cc96b4.chunk.js.LICENSE.txt": "/olelo-quiz/static/js/2.59cc96b4.chunk.js.LICENSE.txt",
+    "static/css/main.f56cc8e4.chunk.css.map": "/olelo-quiz/static/css/main.f56cc8e4.chunk.css.map",
+    "static/js/2.3cd641f1.chunk.js.LICENSE.txt": "/olelo-quiz/static/js/2.3cd641f1.chunk.js.LICENSE.txt",
     "static/media/App.css": "/olelo-quiz/static/media/bg-white.32868565.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bb4e7dd.js",
+    "static/js/runtime-main.53dc5935.js",
     "static/css/2.983f79de.chunk.css",
-    "static/js/2.59cc96b4.chunk.js",
-    "static/css/main.eff60c8a.chunk.css",
-    "static/js/main.d7088989.chunk.js"
+    "static/js/2.3cd641f1.chunk.js",
+    "static/css/main.f56cc8e4.chunk.css",
+    "static/js/main.56934080.chunk.js"
   ]
 }
